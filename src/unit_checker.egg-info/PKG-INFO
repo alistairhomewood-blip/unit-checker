@@ -1,0 +1,33 @@
+Metadata-Version: 2.4
+Name: unit-checker
+Version: 0.2.0
+Summary: Static unit consistency analysis for scientific code (Python, C++, Fortran)
+Author: unit-checker contributors
+License-Expression: MIT
+Project-URL: Homepage, https://github.com/unit-checker/unit-checker
+Project-URL: Documentation, https://github.com/unit-checker/unit-checker/wiki
+Project-URL: Repository, https://github.com/unit-checker/unit-checker
+Project-URL: Issues, https://github.com/unit-checker/unit-checker/issues
+Keywords: physics,units,dimensional-analysis,static-analysis,scientific-computing,linter,type-checker
+Classifier: Development Status :: 4 - Beta
+Classifier: Intended Audience :: Science/Research
+Classifier: Topic :: Scientific/Engineering
+Classifier: Topic :: Scientific/Engineering :: Physics
+Classifier: Topic :: Software Development :: Quality Assurance
+Classifier: Topic :: Software Development :: Testing
+Classifier: Programming Language :: Python :: 3.11
+Classifier: Programming Language :: Python :: 3.12
+Classifier: Programming Language :: Python :: 3.13
+Classifier: Programming Language :: Fortran
+Classifier: Programming Language :: C++
+Requires-Python: >=3.11
+Description-Content-Type: text/markdown
+Requires-Dist: typer>=0.9.0
+Requires-Dist: rich>=13.0.0
+Requires-Dist: tree-sitter>=0.23.0
+Requires-Dist: tree-sitter-cpp>=0.23.0
+Requires-Dist: tree-sitter-fortran>=0.5.0
+Provides-Extra: dev
+Requires-Dist: pytest>=7.0; extra == "dev"
+Requires-Dist: hypothesis>=6.0; extra == "dev"
+Requires-Dist: pytest-cov>=4.0; extra == "dev"

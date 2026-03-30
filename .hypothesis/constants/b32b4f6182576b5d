@@ -1,0 +1,4 @@
+# file: /Users/alistair/Documents/Claude/Projects/unit-checker/src/unit_checker/inference/constraint_builder.py
+# hypothesis_version: 6.151.10
+
+[1000, '__pending__', 'abs', 'cos', 'exp', 'global', 'local:', 'log', 'math.acos', 'math.asin', 'math.atan', 'math.cos', 'math.exp', 'math.fabs', 'math.log', 'math.log10', 'math.log2', 'math.sin', 'math.sqrt', 'math.tan', 'np.abs', 'np.cos', 'np.exp', 'np.log', 'np.log10', 'np.log2', 'np.sin', 'np.sqrt', 'np.tan', 'numpy.abs', 'numpy.cos', 'numpy.exp', 'numpy.log', 'numpy.log10', 'numpy.log2', 'numpy.sin', 'numpy.sqrt', 'numpy.tan', 'sin', 'sqrt', 'tan']

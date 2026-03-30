@@ -1,0 +1,4 @@
+# file: /Users/alistair/Documents/Claude/Projects/unit-checker/src/unit_checker/output/sarif.py
+# hypothesis_version: 6.151.10
+
+['$schema', '%SRCROOT%', '2.1.0', '::', 'AdditionUnitMismatch', 'ReturnUnitMismatch', 'UC001', 'UC002', 'UC003', 'UC004', 'UC005', 'UC006', 'actual', 'actualUnit', 'actualUnitName', 'artifactLocation', 'correctness', 'defaultConfiguration', 'dimensional-analysis', 'driver', 'error', 'errors', 'executionSuccessful', 'expected', 'expectedUnit', 'expectedUnitName', 'fullDescription', 'helpUri', 'id', 'informationUri', 'invocations', 'level', 'locations', 'message', 'name', 'note', 'physicalLocation', 'physics', 'properties', 'region', 'relatedLocations', 'results', 'ruleId', 'ruleIndex', 'rules', 'runs', 'semanticVersion', 'shortDescription', 'snippet', 'startColumn', 'startLine', 'summary', 'tags', 'text', 'tool', 'unit-checker', 'unitsInferred', 'uri', 'uriBaseId', 'variablesAnalyzed', 'version', 'warning', 'warnings']

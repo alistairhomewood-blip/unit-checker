@@ -1,0 +1,4 @@
+# file: /Users/alistair/Documents/Claude/Projects/unit-checker/src/unit_checker/parsers/fortran_parser/parser.py
+# hypothesis_version: 6.151.10
+
+[0.0, '(', ')', '*', '**', '+', ',', '-', '.eq.', '.ge.', '.gt.', '.le.', '.lt.', '.ne.', '/', '/=', '<', '<=', '<string>', '=', '==', '>', '>=', 'D', 'E', '_', '__pending__', 'argument_list', 'assignment_statement', 'block', 'body', 'call_expression', 'comment', 'contains_statement', 'd', 'do_loop_statement', 'e', 'function', 'function_result', 'function_statement', 'global', 'identifier', 'if_statement', 'local:', 'math_expression', 'module', 'name', 'number_literal', 'parameters', 'program', 'string_literal', 'subroutine', 'subroutine_statement', 'unary_expression', 'unknown', 'utf-8', 'variable_declaration']

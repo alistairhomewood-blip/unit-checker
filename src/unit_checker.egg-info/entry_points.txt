@@ -1,0 +1,2 @@
+[console_scripts]
+unit-checker = unit_checker.cli.main:app

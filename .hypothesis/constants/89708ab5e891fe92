@@ -1,0 +1,4 @@
+# file: /Users/alistair/Documents/Claude/Projects/unit-checker/src/unit_checker/core/unit_algebra.py
+# hypothesis_version: 6.151.10
+
+[1.0, 1000, '*', '/', '1/', 'A', 'K', 'amount', 'cd', 'current', 'dimensionless', 'kg', 'length', 'luminosity', 'm', 'mass', 'mol', 's', 'temperature', 'time']

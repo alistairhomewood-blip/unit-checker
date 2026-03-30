@@ -1,0 +1,4 @@
+# file: /Users/alistair/Documents/Claude/Projects/unit-checker/src/unit_checker/config/loader.py
+# hypothesis_version: 6.151.10
+
+[' #', '"', '#', "'", ',', '- ', '.toml', '.unit-checker.toml', '.unit-checker.yaml', '.unit-checker.yml', '.yaml', '.yml', ':', 'SI', '[', '[]', ']', '__repr__', '__str__', 'aliases', 'annotation_format', 'comment', 'custom_units', 'defaults', 'false', 'functions', 'ignore', 'ignore_functions', 'ignore_paths', 'no', 'off', 'on', 'paths', 'pyproject.toml', 'rb', 'strict', 'tool', 'true', 'unit-checker', 'unit_system', 'utf-8', 'yes']

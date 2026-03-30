@@ -1,0 +1,4 @@
+# file: /Users/alistair/Documents/Claude/Projects/unit-checker/src/unit_checker/parsers/common/ir.py
+# hypothesis_version: 6.151.10
+
+['!=', '%', '*', '**', '+', '-', '/', '//', '<', '<=', '==', '>', '>=']

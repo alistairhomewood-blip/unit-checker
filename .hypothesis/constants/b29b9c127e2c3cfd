@@ -1,0 +1,4 @@
+# file: /Users/alistair/Documents/Claude/Projects/unit-checker/src/unit_checker/output/json_output.py
+# hypothesis_version: 6.151.10
+
+['I', 'J', 'L', 'M', 'N', 'T', 'Th', 'actual_unit', 'actual_unit_name', 'actual_unit_string', 'column', 'errors', 'expected_unit', 'expected_unit_name', 'expected_unit_string', 'file', 'line', 'message', 'reason', 'severity', 'summary', 'type', 'unit', 'units_inferred', 'variable', 'variables_analyzed', 'version', 'violations', 'warnings']

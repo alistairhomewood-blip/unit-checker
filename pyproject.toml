@@ -1,0 +1,66 @@
+[build-system]
+requires = ["setuptools>=68.0", "setuptools-scm>=8.0"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "unit-checker"
+version = "0.2.0"
+description = "Static unit consistency analysis for scientific code (Python, C++, Fortran)"
+readme = "README.md"
+license = "MIT"
+requires-python = ">=3.11"
+authors = [
+    {name = "unit-checker contributors"},
+]
+keywords = [
+    "physics", "units", "dimensional-analysis", "static-analysis",
+    "scientific-computing", "linter", "type-checker",
+]
+classifiers = [
+    "Development Status :: 4 - Beta",
+    "Intended Audience :: Science/Research",
+    "Topic :: Scientific/Engineering",
+    "Topic :: Scientific/Engineering :: Physics",
+    "Topic :: Software Development :: Quality Assurance",
+    "Topic :: Software Development :: Testing",
+    "Programming Language :: Python :: 3.11",
+    "Programming Language :: Python :: 3.12",
+    "Programming Language :: Python :: 3.13",
+    "Programming Language :: Fortran",
+    "Programming Language :: C++",
+]
+dependencies = [
+    "typer>=0.9.0",
+    "rich>=13.0.0",
+    "tree-sitter>=0.23.0",
+    "tree-sitter-cpp>=0.23.0",
+    "tree-sitter-fortran>=0.5.0",
+]
+
+[project.optional-dependencies]
+dev = [
+    "pytest>=7.0",
+    "hypothesis>=6.0",
+    "pytest-cov>=4.0",
+]
+
+[project.urls]
+Homepage = "https://github.com/unit-checker/unit-checker"
+Documentation = "https://github.com/unit-checker/unit-checker/wiki"
+Repository = "https://github.com/unit-checker/unit-checker"
+Issues = "https://github.com/unit-checker/unit-checker/issues"
+
+[project.scripts]
+unit-checker = "unit_checker.cli.main:app"
+
+[tool.setuptools.packages.find]
+where = ["src"]
+
+[tool.pytest.ini_options]
+testpaths = ["tests"]
+addopts = "-v --tb=short"
+
+[tool.unit-checker]
+# Default configuration for this project
+unit_system = "SI"
+annotation_format = "comment"
